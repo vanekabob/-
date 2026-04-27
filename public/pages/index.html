@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>БАЙКАЛ‑ГРУПП — Главная</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="wrap">
+        <div class="toprow">
+          <a class="brand" href="/">
+            <span class="mark" aria-hidden="true"></span>
+            <span>
+              БАЙКАЛ‑ГРУПП
+              <small>строительно‑инженерные работы</small>
+            </span>
+          </a>
+          <div class="spacer"></div>
+          <a class="phone" href="tel:+78001234567">
+            <span aria-hidden="true">☎</span>
+            <div>
+              <div style="font-size:13px;opacity:.8;font-weight:750">Звонок бесплатный</div>
+              <div>8 (800) 123‑45‑67</div>
+            </div>
+          </a>
+        </div>
+
+        <nav class="tabs" aria-label="Навигация">
+          <a class="tab" href="/">Главная</a>
+          <a class="tab" href="/history">История компании</a>
+          <a class="tab" href="/contracts">Контракты</a>
+          <a class="tab" href="/jobs">Работа у нас</a>
+          <a class="tab" href="/contacts">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrap">
+          <div class="card heroCard">
+            <div class="map" role="img" aria-label="Карта присутствия (заглушка)"></div>
+
+            <div class="metrics">
+              <div class="metric">
+                <div class="n">1234</div>
+                <div class="t">объектов</div>
+              </div>
+              <div class="metric">
+                <div class="n">2234</div>
+                <div class="t">контрактов</div>
+              </div>
+              <div class="metric">
+                <div class="n">3234</div>
+                <div class="t">сотрудников</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap">
+          <div class="h2">Направления</div>
+          <div class="grid">
+            <article class="card pad">
+              <div class="pillrow">
+                <span class="pill on">Проектирование</span>
+                <span class="pill">Поставка</span>
+                <span class="pill">Монтаж</span>
+              </div>
+              <p class="muted" style="margin:10px 0 0">
+                Комплексные решения: от предпроектного обследования до ввода в эксплуатацию.
+              </p>
+            </article>
+            <article class="card pad">
+              <div class="pillrow">
+                <span class="pill on">Сервис</span>
+                <span class="pill">ПНР</span>
+                <span class="pill">Аудит</span>
+              </div>
+              <p class="muted" style="margin:10px 0 0">
+                Регламентное обслуживание и аварийные выезды с контролем SLA.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap">
+          <div class="h2">Партнёры</div>
+          <div class="card pad">
+            <div class="pillrow">
+              <span class="pill">Партнёр №1</span>
+              <span class="pill">Партнёр №2</span>
+              <span class="pill">Партнёр №3</span>
+              <span class="pill">Партнёр №4</span>
+              <span class="pill">Партнёр №5</span>
+              <span class="pill">Партнёр №6</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap">
+          <div class="h2">Социальные проекты</div>
+          <div class="grid">
+            <article class="card pad">
+              <b>Образование</b>
+              <div class="muted">Поддержка профильных кафедр и стажировок для студентов.</div>
+            </article>
+            <article class="card pad">
+              <b>Экология</b>
+              <div class="muted">Проекты по снижению воздействия и мониторингу.</div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">
+        <div style="font-weight:900;color:#fff">БАЙКАЛ‑ГРУПП</div>
+        <div>© <span id="y"></span> Все права защищены.</div>
+      </div>
+    </footer>
+
+    <script src="/app.js"></script>
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
